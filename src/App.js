@@ -14,7 +14,7 @@ function App() {
             {/*<Game2/>*/}
             {/*<hr/>*/}
             {/*<Game3/>*/}
-            <Game4/>
+            <Game4 max={10}/>
         </div>
     );
 }
