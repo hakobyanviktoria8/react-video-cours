@@ -1,0 +1,32 @@
+.Game3Wraper {
+    display: flex;
+}
+
+.PokeCard {
+    box-shadow: 0 0 10px gray;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+}
+
+.PokeCard > img {
+    width: 130px;
+}
+
+.PokeCard:hover img {
+    transform: scale(1.2);
+    opacity: 0.7;
+    transition: all ease 500ms;
+}
+.game2Card{
+    display: flex;
+}
+
+.active {
+    background: green;
+}
