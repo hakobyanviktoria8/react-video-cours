@@ -1,0 +1,67 @@
+.Game6 {
+
+}
+
+.Game6Wraper {
+    display: flex;
+}
+
+.Game6Wraper > div {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.Game6Wraper > div i {
+    font-size: 50px;
+}
+
+.shaking {
+    animation-name: wobble;
+    animation-duration: 1s;
+}
+
+@keyframes wobble {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    15% {
+        transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    }
+
+    30% {
+        transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    }
+
+    45% {
+        transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    }
+
+    60% {
+        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    }
+
+    75% {
+        transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+p {
+    margin: 0;
+}
+
+.Game6 button {
+    padding: 10px 30px;
+    margin-left: 60px;
+}
+
+.Game6 button:hover {
+    background: gray;
+    color: white;
+}
