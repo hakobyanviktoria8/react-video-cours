@@ -1,6 +1,8 @@
 import React from "react";
 import './App.css';
-import Game7 from "./Components/Game7/Game7";
+import Game9 from "./Components/Game9/Game9";
+// import Game7 from "./Components/Game7/Game7";
+// import Game8 from "./Components/Game8/Game8";
 // import Game6 from "./Components/Game6/Game6";
 // import Game1 from "./Components/Game1/Game1";
 // import Game2 from "./Components/Game2/Game2";
@@ -23,7 +25,10 @@ function App() {
             {/*<Button/>*/}
             {/*<Game5/>*/}
             {/*<Game6/>*/}
-            <Game7/>
+            {/*<Game7/>*/}
+            {/*<Game8/>*/}
+            <Game9 maxSircle = {6} maxRange={40}/>
+            <Game9 maxSircle = {4} maxRange={20}/>
         </div>
     );
 }
