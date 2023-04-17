@@ -10,7 +10,7 @@ const Box = () => {
     }
 
     return (
-        <div onClick={handleClick} className={"Box"} style={{"background": color}}/>
+        <div onMouseEnter={handleClick} className={"Box"} style={{"background": color}}/>
     )
 };
 
